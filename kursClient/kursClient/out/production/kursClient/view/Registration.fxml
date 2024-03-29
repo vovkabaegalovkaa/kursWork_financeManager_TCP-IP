@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RegistrationController">
+    <children>
+        <Label text="Регистрация" />
+        <TextField fx:id="usernameField" promptText="Логин" />
+        <PasswordField fx:id="passwordField" promptText="Пароль" />
+        <PasswordField fx:id="confirmPasswordField" promptText="Подтверждение пароля" />
+        <TextField fx:id="nameField" promptText="Имя пользователя" />
+        <HBox>
+            <RadioButton fx:id="maleRadioButton" text="Мужчина" />
+            <RadioButton fx:id="femaleRadioButton" text="Женщина" />
+        </HBox>
+        <TextField fx:id="ageField" promptText="Возраст пользователя" />
+        <Button fx:id="registerButton" text="Зарегистрироваться" />
+    </children>
+</VBox>

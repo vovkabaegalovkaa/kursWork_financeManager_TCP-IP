@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ChangeInfoController">
+    <children>
+        <Label text="Редактирование профиля" />
+        <TextField fx:id="nameField" promptText="Имя пользователя" />
+        <HBox>
+            <RadioButton fx:id="maleRadioButton" text="Мужчина" />
+            <RadioButton fx:id="femaleRadioButton" text="Женщина" />
+        </HBox>
+        <TextField fx:id="ageField" promptText="Возраст пользователя" />
+        <Button fx:id="confirmButton" text="Сохранить изменения" />
+      <Button fx:id="backButton" onAction="#handleBackButton" layoutX="10.0" layoutY="173.0" text="Назад" />
+    </children>
+</VBox>
