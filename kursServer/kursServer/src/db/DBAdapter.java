@@ -14,7 +14,7 @@ public class DBAdapter {
 
     public static void getConnection() throws SQLException, ClassNotFoundException {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        c = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb","root","01012001Gh");
+        c = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb","root","*******");
         statement = c.createStatement();
 
     }
